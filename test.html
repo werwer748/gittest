@@ -13,12 +13,12 @@
 </style>
 <script>
     function aaa(c){
-        document.getElementsByClassName("box").style.backgroundColor=c;
+        document.getElementById("box").style.backgroundColor=c;
     }
 </script>
 </head>
 <body>
-    <div class="box"></div><br>
+    <div class="box" id="box"></div><br>
     <select onchange="aaa(this.value)">
         <option value="violet">바이올렛</option>
         <option value="red">빨강</option>
